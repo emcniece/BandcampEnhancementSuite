@@ -30,7 +30,8 @@
   "content_scripts": [
     {
       "matches": [
-        "file:///*"
+        "http://*.bandcamp.com/*",
+        "https://*.bandcamp.com/*"
       ],
       "js": [
         "dist/main.js"
